@@ -1,0 +1,25 @@
+# Executables
+algorithm_forge
+algorithm_tests
+graph_tests
+dp_tests
+greedy_tests
+avl_tests
+benchmark
+
+# Object files
+*.o
+
+# Debugging
+core
+core.*
+
+# Build directories
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
