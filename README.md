@@ -2,10 +2,12 @@
 
 # Algorithm Forge
 
-### An Algorithm Engineering & Performance Analysis Engine
+### Production-Oriented Algorithms & Data Structures in C
 
-A systems-level C project implementing, analysing, and benchmarking
-fundamental algorithms and data structures from first principles.
+A systems-level algorithm library built from first principles, exploring
+complexity analysis, recursion, dynamic programming, graph algorithms,
+search, sorting, and balanced trees.
+
 
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![Domain](https://img.shields.io/badge/Domain-Algorithms-orange)
