@@ -68,6 +68,16 @@ test-avl:
 
 test-all: test-algorithms test-graph test-dp test-greedy test-avl
 
+advanced-graph-tests:
+	$(CC) $(CFLAGS) \
+	tests/test_advanced_graph.c \
+	src/bellman_ford.c \
+	src/floyd_warshall.c \
+	src/astar.c \
+	-Iinclude \
+	-o advanced_graph_tests
+	./advanced_graph_tests
+
 clean:
 	rm -f \
 	$(PROGRAM) \
@@ -78,6 +88,8 @@ clean:
 	$(AVL_TEST) \
 	benchmark \
 	*.o
+clean:
+	rm -f algorithm_forge advanced_graph_tests
 
 .PHONY: all run \
 test-algorithms \
