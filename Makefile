@@ -78,6 +78,13 @@ advanced-graph-tests:
 	-o advanced_graph_tests
 	./advanced_graph_tests
 
+benchmark-search:
+	$(CC) $(CFLAGS) \
+	benchmarks/benchmark_search.c \
+	-o search_benchmark
+	./search_benchmark
+
+
 clean:
 	rm -f \
 	$(PROGRAM) \
@@ -90,6 +97,17 @@ clean:
 	*.o
 clean:
 	rm -f algorithm_forge advanced_graph_tests
+
+clean:
+	rm -f algorithm_forge \
+	      advanced_graph_tests \
+	      search_benchmark \
+	      algorithm_tests \
+	      test_engine \
+	      set_tests \
+	      relation_tests \
+	      function_tests
+
 
 .PHONY: all run \
 test-algorithms \
