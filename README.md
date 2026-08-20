@@ -29,11 +29,53 @@ computational problems and evaluates them using both:
 - mathematical complexity analysis
 - empirical performance measurements
 
+
+# Objectives
+
+The project demonstrates:
+
+- algorithmic problem solving
+- asymptotic analysis
+- recursion
+- dynamic programming
+- searching
+- sorting
+- graph algorithms
+- shortest-path algorithms
+- balanced search trees
+- memory-aware C programming
+- automated testing
+- performance analysis
+  
 The objective is not simply to implement algorithms.
 
 The objective is to understand **why one algorithm performs better than
 another and under which conditions.**
 
+---
+
+# Architecture
+
+```
+Algorithm Forge
+│
+├── include/
+│   └── Public algorithm interfaces
+│
+├── src/
+│   └── Algorithm implementations
+│
+├── tests/
+│   └── Automated correctness tests
+│
+├── benchmarks/
+│   └── Performance experiments
+│
+├── docs/
+│   └── Complexity and algorithm documentation
+│
+└── Makefile
+```
 ---
 
 # Core Philosophy
