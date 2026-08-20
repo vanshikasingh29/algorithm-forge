@@ -10,9 +10,10 @@ search, sorting, and balanced trees.
 
 
 ![Language](https://img.shields.io/badge/Language-C-blue)
-![Domain](https://img.shields.io/badge/Domain-Algorithms-orange)
-![Focus](https://img.shields.io/badge/Focus-Algorithm%20Engineering-green)
-![Status](https://img.shields.io/badge/Status-%20Completed-yellow)
+![Standard](https://img.shields.io/badge/Standard-C17-blue)
+![Testing](https://img.shields.io/badge/Testing-Automated-success)
+![Algorithms](https://img.shields.io/badge/Algorithms-From%20First%20Principles-purple)
+![Status](https://img.shields.io/badge/Status-Complete-success)
 
 </div>
 
