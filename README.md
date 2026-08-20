@@ -10,7 +10,7 @@ fundamental algorithms and data structures from first principles.
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![Domain](https://img.shields.io/badge/Domain-Algorithms-orange)
 ![Focus](https://img.shields.io/badge/Focus-Algorithm%20Engineering-green)
-![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
+![Status](https://img.shields.io/badge/Status-%20Completed-yellow)
 
 </div>
 
